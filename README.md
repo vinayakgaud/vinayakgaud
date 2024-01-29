@@ -1,3 +1,4 @@
+![MasterHead](https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1060&t=st=1706541285~exp=1706541885~hmac=bce2714159b21532de5629245690c5e34029151e6176ad7a709e83720c54683c)<a href="https://www.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_10798281.htm#query=programming&position=5&from_view=search&track=sph&uuid=66297a8a-f024-4266-8426-66f27282fab0">Image by upklyak</a> on Freepik
 <h1 align="center">Hi, there 👋, I'm Vinayak Gaud</h1>
 <h2 align="center">A passionate software developer from India</h2>
 <h3 align="center">I am a seasoned software engineer with 3 years of experience, specializing in web development with the MERN stack. My enthusiasm for coding extends to competitive programming, where I consistently challenge myself. I thrive on connecting with fellow developers and collaborating on diverse projects. Eager to embrace new technologies, my goal is to craft innovative and practical solutions through a variety of projects.</h3>
@@ -25,5 +26,5 @@
 ![](https://github-contributor-stats.vercel.app/api?username=vinayakgaud&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=vinayakgaud&icon=0&color=blueviolet&style=for-the-badge)](https://visitcount.itsvg.in)
+![](https://komarev.com/ghpvc/?username=vinayakgaud&color=blueviolet&style=for-the-badge)
 
