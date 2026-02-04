@@ -1,6 +1,5 @@
 {
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "catppuccin-mocha",
   "files.autoSave": "afterDelay",
   "prettier.bracketSameLine": true,
   "editor.formatOnSave": true,
@@ -8,12 +7,11 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "dart.flutterSdkPath": "/Users/vinayakgaud/flutter",
-  "workbench.sideBar.location": "right",
   "vscode-pets.petColor": "white",
   "vscode-pets.petSize": "small",
   "vscode-pets.petType": "fox",
   "vscode-pets.theme": "beach",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "'JetBrains Mono Medium'",
   "redhat.telemetry.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.compileOnSave": false,
@@ -23,25 +21,21 @@
   "terminal.integrated.fontLigatures.enabled": true,
   "terminal.integrated.fontSize": 14,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.productIconTheme": "icons-carbon",
-  "editor.fontFamily": "'0xProto Nerd Font','Monaspace Neon Frozen',Menlo, Monaco, 'Courier New', monospace",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.fontFamily": "'JetBrains Mono Regular','0xProto Nerd Font','Monaspace Neon Frozen',Menlo, Monaco, 'Courier New', monospace",
   "editor.inlineSuggest.fontFamily": "'0xProto Nerd Font', monospace",
-  // "vscode_custom_css.imports": [
-  //   "file:///Users/vinayakgaud/Desktop/customs/vscode.css"
-  // ],
-  "editor.fontSize": 16,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "interval",
   "editor.renderWhitespace": "boundary",
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
   "workbench.editor.tabActionLocation": "left",
   "workbench.fontAliasing": "antialiased",
   "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
-  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Octagon)",
+  "workbench.preferredLightColorTheme": "Tokyo Night",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
@@ -160,7 +154,8 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 1/20/2026, 6:15:36 PM",
+    "//": "Last update at 2/2/2026, 6:00:41 PM",
+    ".agent": ".agent, .claude, .cline, .codebuddy, .codex, .commandcode, .continue, .crush, .cursor, .factory, .gemini, .goose, .junie, .kilocode, .kiro, .kode, .mcpjam, .mux, .neovate, .opencode, .openhands, .pi, .pochi, .qoder, .qwen, .roo, .trae, .windsurf, .zencoder",
     ".clang-tidy": ".clang-format, .clangd, compile_commands.json",
     ".env": "*.env, .env.*, .envrc, env.d.ts",
     ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .lfsconfig, .mailmap, .git-blame*",
@@ -265,41 +260,50 @@
   "editor.wrapOnEscapedLineFeeds": true,
   "workbench.editor.wrapTabs": true,
   "chat.editor.wordWrap": "on",
+  "chat.useAgentSkills": true,
+  "editor.fontSize": 14,
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.fontWeight": "normal",
+  "workbench.sideBar.location": "right",
 }
 
 #### # VSCODE Extensions
 
-1. Carbon Product Icons
+1. Material Product Icons
 2. Error Lens
 3. ESLint
 4. GitHub Copilot
-5. Catppuccin Theme
-6. Catppuccin Theme Icons
-7. Container
-8. Browser Lite
-9. Dev Containers
-10. Docker
-11. File Nesting Updater
-12. Github Actions
-13. Gradle for Java
-14. Iconify Intellisense
-15. JSON Crack
-16. kubernetes
-17. Mermaid Chart
-18. Paste JSON as Code
-19. Prettier - Code formatter
-20. Remote - Containers
-21. Proto Lint
-22. Protobuf
-23. Rainbow CSV
-24. SVG Viewer
-25. Tailwind CSS IntelliSense
-26. Thunder Client
-27. Vitesse Theme
-28. Vscode-icons
-29. YAML
-30. GitLens — Git supercharged
-31. Slidev
-32. SQLTools
-33. TODO tree
-34. Vite
+5. Container
+6. Dev Containers
+7. Docker
+8. File Nesting Updater
+9. Github Actions
+10. Gradle for Java
+11. Iconify Intellisense
+12. JSON Crack
+13. kubernetes
+14. Paste JSON as Code
+15. Prettier - Code formatter
+16. Remote - Containers
+17. Proto Lint
+18. Protobuf
+19. Rainbow CSV
+20. SVG Viewer
+21. Tailwind CSS IntelliSense
+22. Vscode-icons
+23. YAML
+24. SQLTools
+25. TODO tree
+26. Vite
+27. Azure Toolkit
+28. Codex
+29. Go
+30. Microsoft Foundry
+31. Monokai Pro
+32. Slidev
+33. Tokyo Night
+34. VSCode Great Icons
+35. Remote SSH bundle
+36. Python Bundle, Environments, Debugger, Pylance
+37. Git History
