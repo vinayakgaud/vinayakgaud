@@ -1,0 +1,31 @@
+# Use the custom palette
+palette = "catppuccin_mocha"
+
+# Global prompt format - this defines the "Layout"
+format = """
+[](mauve)\
+$os\
+$username\
+[](bg:peach fg:mauve)\
+$directory\
+[](fg:peach bg:green)\
+$git_branch\
+$git_status\
+[](fg:green bg:blue)\
+$c\
+$rust\
+$golang\
+$nodejs\
+$php\
+$java\
+[](fg:blue bg:base)\
+$docker_context\
+[](fg:base)\
+$line_break\
+$character"""
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
