@@ -53,7 +53,7 @@
   "custom-ui-style.font.sansSerif": "'0xProto Nerd Font','Monaspace Neon Frozen'",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "underline",
   "workbench.colorCustomizations": {
     "editorCursor.background": "#000000",
     "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
@@ -75,9 +75,10 @@
     }
   },
   "editor.fontFamily": "'0xProto Nerd Font','Monaspace Neon Frozen'",
-  "editor.fontSize": 13,
+  "editor.fontSize": 10,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 1.2,
+  "editor.lineHeight": 2.5,
+  "editor.letterSpacing": 0.5,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -95,7 +96,7 @@
   "editor.matchBrackets": "never",
   "editor.parameterHints.enabled": false,
   "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": "off",
+  "editor.hover.enabled": "on",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "scm.diffDecorations": "none",
@@ -113,14 +114,17 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.quickSuggestions": {
-    "other": "off"
+    // "other": "off",
+    "strings": "on"
   },
-  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggestOnTriggerCharacters": true,
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
   "emmet.triggerExpansionOnTab": true,
   "files.autoSave": "afterDelay",
   "update.mode": "none",
   "extensions.ignoreRecommendations": true,
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle",
+  "go.toolsManagement.autoUpdate": true
 }
+
