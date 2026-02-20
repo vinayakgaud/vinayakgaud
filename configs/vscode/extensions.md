@@ -27,12 +27,11 @@ Azure Toolkit
 Codex
 Go
 Microsoft Foundry
-Tokyo Night
-Material Icon Theme
 Remote SSH bundle
 Python Bundle, Environments, Debugger, Pylance
 Git History
 Custom UI Style
-Aura Spirit Dracula Theme
+Catppucchin
+Catppucchin Icon
 Gradle for JAVA
 GraphQL

@@ -1,6 +1,5 @@
 {
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-  "workbench.activityBar.location": "hidden",
+  "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
   "workbench.editor.showTabs": "single",
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
@@ -8,8 +7,7 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "workbench.sideBar.location": "right",
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.iconTheme": "catppuccin-mocha",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 8,
@@ -18,8 +16,7 @@
   "explorer.confirmDelete": false,
   "explorer.decorations.badges": false,
   "git.decorations.enabled": false,
-  "window.zoomLevel": 1.5,
-  "window.customTitleBarVisibility": "never",
+  "window.zoomLevel": 1,
   "window.titleBarStyle": "native",
   "custom-ui-style.electron": {
     "titleBarStyle": "hiddenInset",
@@ -50,52 +47,40 @@
     ".title .monaco-icon-label.file-icon": "margin: 0 60px",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
   },
-  "custom-ui-style.font.sansSerif": "'0xProto Nerd Font','Monaspace Neon Frozen'",
+  "custom-ui-style.font.sansSerif": "'Fira Code','0xProto Nerd Font','Monaspace Neon Frozen'",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "underline",
-  "workbench.colorCustomizations": {
-    "editorCursor.background": "#000000",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
-    "editorOverviewRuler.selectionHighlightForeground": "#0000",
-    "editorOverviewRuler.rangeHighlightForeground": "#0000",
-    "editorOverviewRuler.wordHighlightForeground": "#0000",
-    "editorOverviewRuler.bracketMatchForeground": "#0000",
-    "editorOverviewRuler.findMatchForeground": "#0000",
-    "editorOverviewRuler.modifiedForeground": "#0000",
-    "editorOverviewRuler.deletedForeground": "#0000",
-    "editorOverviewRuler.warningForeground": "#0000",
-    "editorOverviewRuler.addedForeground": "#0000",
-    "editorOverviewRuler.errorForeground": "#0000",
-    "editorOverviewRuler.infoForeground": "#0000",
-    "editorOverviewRuler.border": "#0000",
-    "[Aura Dracula Spirit (Soft)]": {
-      "editorSuggestWidget.selectedBackground": "#3A334B",
-      "sideBar.background": "#191521"
-    }
-  },
-  "editor.fontFamily": "'0xProto Nerd Font','Monaspace Neon Frozen'",
-  "editor.fontSize": 10,
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 2.5,
-  "editor.letterSpacing": 0.5,
+  "editor.fontFamily": "'Fira Code','0xProto Nerd Font','Monaspace Neon Frozen'",
+  "editor.fontSize": 11,
+  "editor.fontLigatures": "'cv01','cv04','cv08','cv12','cv14','cv16','cv17','cv18','cv30','cv29','cv31','cv24','cv25','cv26','cv32','cv28','cv20','calt','ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06','ss07','ss09'",
+  "editor.lineHeight": 1.5,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "comment",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage.type",
+          "storage.modifier",
+          "entity.name.variable",
+          "variable.language"
+        ],
         "settings": {
           "fontStyle": "italic"
         }
       }
     ]
   },
+  "editor.letterSpacing": 0,
+  "editor.fontWeight": "500",
   "editor.stickyScroll.enabled": false,
   "editor.colorDecorators": false,
   "editor.codeLens": false,
   "editor.links": false,
-  "editor.matchBrackets": "never",
-  "editor.parameterHints.enabled": false,
-  "editor.lightbulb.enabled": "off",
+  "editor.matchBrackets": "always",
+  "editor.parameterHints.enabled": true,
+  "editor.lightbulb.enabled": "on",
   "editor.hover.enabled": "on",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -107,14 +92,13 @@
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
-  "editor.occurrencesHighlight": "off",
-  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.selectionHighlight": true,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.quickSuggestions": {
-    // "other": "off",
     "strings": "on"
   },
   "editor.suggestOnTriggerCharacters": true,
@@ -125,6 +109,21 @@
   "update.mode": "none",
   "extensions.ignoreRecommendations": true,
   "window.menuBarVisibility": "toggle",
-  "go.toolsManagement.autoUpdate": true
+  "go.toolsManagement.autoUpdate": true,
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+  "workbench.activityBar.location": "hidden",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://esm.sh": true
+  },
+  "editor.wordWrap": "bounded"
 }
 
