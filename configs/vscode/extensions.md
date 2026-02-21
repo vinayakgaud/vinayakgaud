@@ -35,3 +35,7 @@ Catppucchin
 Catppucchin Icon
 Gradle for JAVA
 GraphQL
+Console Ninja - Wallaby.js
+Random Everything
+Indent Colorizer
+Image preview
